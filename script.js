@@ -36,7 +36,7 @@ if (mortgageForm && calcResult) {
 const testimonials = [
   {
     quote:
-      "Our file had self-employed income and a short closing timeline. Summit Harbor kept it organized, and we closed six days early.",
+      "Our file had self-employed income and a short closing timeline. Mortgage Loan Broker kept it organized, and we closed six days early.",
     meta: "A. Patel, Purchase Client",
   },
   {

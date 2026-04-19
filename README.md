@@ -1,4 +1,4 @@
-# Summit Harbor Mortgage Website
+# Mortgage Loan Broker Website
 
 Modern, conversion-focused static website for a U.S. mortgage brokerage.
 
@@ -6,8 +6,8 @@ Modern, conversion-focused static website for a U.S. mortgage brokerage.
 
 - AWS CloudFront (primary): https://dqk9um2h2zzrw.cloudfront.net
 - AWS S3 website endpoint: http://summit-harbor-mortgage-621580823968.s3-website-us-east-1.amazonaws.com
-- GitHub repository: https://github.com/AgarwalsLLC/summit-harbor-mortgage
-- GitHub Pages: https://agarwalsllc.github.io/summit-harbor-mortgage/
+- GitHub repository: https://github.com/AgarwalsLLC/mortgage-loan-broker
+- GitHub Pages: https://agarwalsllc.github.io/mortgage-loan-broker/
 
 ## What Was Built
 
