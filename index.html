@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summit Harbor Mortgage | Modern Home Loan Brokerage</title>
+    <meta
+      name="description"
+      content="Summit Harbor Mortgage is an independent mortgage brokerage helping buyers, homeowners, and investors secure the right financing with clarity and speed."
+    />
+    <meta property="og:title" content="Summit Harbor Mortgage" />
+    <meta
+      property="og:description"
+      content="Purchase, refinance, and investor financing with an advisor-led approach."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">
+          <span class="brand-mark" aria-hidden="true">SH</span>
+          <span>Summit Harbor Mortgage</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="#programs">Programs</a>
+          <a href="#pathways">Pathways</a>
+          <a href="#calculator">Calculator</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn btn-solid" href="#contact">Apply Now</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-bg" role="img" aria-label="Modern home exterior"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Independent Mortgage Brokerage</p>
+          <h1>Loan strategy built around your goals, not a lender script.</h1>
+          <p class="hero-copy">
+            We compare wholesale lenders, align terms to your timeline, and keep every step transparent from pre-approval through closing.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-accent" href="#contact">Start Application</a>
+            <a class="btn btn-outline" href="#pathways">Talk to an Advisor</a>
+          </div>
+          <ul class="hero-stats" aria-label="Key metrics">
+            <li><strong>35+</strong><span>lender relationships</span></li>
+            <li><strong>16 days</strong><span>avg. close-ready file</span></li>
+            <li><strong>4.9/5</strong><span>client experience rating</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div class="container trust-grid">
+          <p class="trust-title">Trusted by purchase and refinance clients across the U.S.</p>
+          <div class="logo-row" aria-label="Partner lender placeholders">
+            <span>PrimeLend</span>
+            <span>NorthPoint</span>
+            <span>ValleyRate</span>
+            <span>RidgeCap</span>
+            <span>Aspen Funding</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="programs" class="section programs">
+        <div class="container">
+          <p class="eyebrow dark">Loan Programs</p>
+          <h2>Solutions for purchase, refinance, and investment growth.</h2>
+          <div class="program-grid">
+            <article class="program-card">
+              <h3>Conventional</h3>
+              <p>Strong fit for borrowers with stable income and competitive credit profiles.</p>
+            </article>
+            <article class="program-card">
+              <h3>FHA</h3>
+              <p>Flexible credit and lower down payment options for first-time and repeat buyers.</p>
+            </article>
+            <article class="program-card">
+              <h3>VA</h3>
+              <p>Qualified military borrowers can access no-down-payment pathways and reduced costs.</p>
+            </article>
+            <article class="program-card">
+              <h3>Jumbo</h3>
+              <p>High-balance financing for premium properties with tailored underwriting strategy.</p>
+            </article>
+            <article class="program-card">
+              <h3>DSCR</h3>
+              <p>Investor-focused lending based on property cash flow instead of personal income.</p>
+            </article>
+            <article class="program-card">
+              <h3>Non-QM</h3>
+              <p>Bank statement and self-employed options for non-traditional income scenarios.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pathways" class="section pathways">
+        <div class="container split">
+          <article class="pathway purchase">
+            <p class="eyebrow dark">Purchase Path</p>
+            <h3>Buy with confidence</h3>
+            <ul>
+              <li>Pre-approval with documented affordability range</li>
+              <li>Offer-strength guidance aligned with closing timelines</li>
+              <li>Weekly milestone updates for agents and borrowers</li>
+            </ul>
+          </article>
+          <article class="pathway refinance">
+            <p class="eyebrow dark">Refinance Path</p>
+            <h3>Restructure debt and monthly cash flow</h3>
+            <ul>
+              <li>Rate-term and cash-out scenario analysis</li>
+              <li>Break-even modeling with all fees included</li>
+              <li>Execution plan based on lock timing and market moves</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="calculator" class="section calculator">
+        <div class="container calc-layout">
+          <div class="calc-copy">
+            <p class="eyebrow dark">Planning Tool</p>
+            <h2>Mortgage payment preview</h2>
+            <p>Use this estimate to benchmark your monthly principal and interest payment before taxes, insurance, and HOA dues.</p>
+          </div>
+          <form class="calc-form" id="mortgageForm" novalidate>
+            <label>
+              Home Price ($)
+              <input id="homePrice" type="number" min="0" step="1000" value="450000" required />
+            </label>
+            <label>
+              Down Payment ($)
+              <input id="downPayment" type="number" min="0" step="1000" value="90000" required />
+            </label>
+            <label>
+              Interest Rate (%)
+              <input id="interestRate" type="number" min="0" step="0.01" value="6.25" required />
+            </label>
+            <label>
+              Term (Years)
+              <select id="loanTerm" required>
+                <option value="30" selected>30</option>
+                <option value="20">20</option>
+                <option value="15">15</option>
+              </select>
+            </label>
+            <button class="btn btn-solid" type="submit">Calculate</button>
+            <p class="calc-result" id="calcResult" aria-live="polite">$2,216 / month (est. principal + interest)</p>
+            <p class="calc-footnote">Estimate only. Not a loan approval or rate commitment.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section process">
+        <div class="container">
+          <p class="eyebrow dark">Process</p>
+          <h2>Five clear milestones from first call to funded loan.</h2>
+          <ol class="timeline">
+            <li><strong>Discovery</strong><span>Goals, property intent, and budget.</span></li>
+            <li><strong>Strategy</strong><span>Program and lender comparison.</span></li>
+            <li><strong>Pre-Approval</strong><span>Verified eligibility and documentation.</span></li>
+            <li><strong>Underwriting</strong><span>Condition management and coordination.</span></li>
+            <li><strong>Closing</strong><span>Final review, signatures, and funding.</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <p class="eyebrow dark">Client Feedback</p>
+          <h2>Borrowers who needed precision and speed.</h2>
+          <div class="testimonial-box">
+            <blockquote id="quoteText">
+              “Our file had self-employed income and a short closing timeline. Summit Harbor kept it organized, and we closed six days early.”
+            </blockquote>
+            <p id="quoteMeta">A. Patel, Purchase Client</p>
+            <div class="quote-controls">
+              <button type="button" id="prevQuote" aria-label="Previous testimonial">Prev</button>
+              <button type="button" id="nextQuote" aria-label="Next testimonial">Next</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq">
+        <div class="container">
+          <p class="eyebrow dark">FAQ</p>
+          <h2>Answers before you apply.</h2>
+          <div class="faq-list">
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">What documents should I prepare first?</button>
+              <div class="faq-answer">
+                <p>Start with recent pay records, two years of tax returns or business returns, bank statements, and photo ID. We provide a tailored checklist after intake.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">Can I qualify if I am self-employed?</button>
+              <div class="faq-answer">
+                <p>Yes. We structure files using conventional, Non-QM, or bank statement programs depending on your income profile and reserves.</p>
+              </div>
+            </article>
+            <article class="faq-item">
+              <button class="faq-question" aria-expanded="false">How quickly can I close?</button>
+              <div class="faq-answer">
+                <p>Timeline depends on appraisal, title, and document readiness. Purchase files are usually structured for 21-30 day closings.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-layout">
+          <div class="contact-copy">
+            <p class="eyebrow dark">Get Started</p>
+            <h2>Tell us your scenario and target timeline.</h2>
+            <p>We reply with a clear next step and lending path.</p>
+            <ul>
+              <li>Email: hello@summitharbormortgage.com</li>
+              <li>Phone: +1 (800) 555-0128</li>
+              <li>Hours: Mon-Fri, 9:00 AM to 6:00 PM CT</li>
+            </ul>
+          </div>
+          <form class="contact-form">
+            <label>Full Name <input type="text" name="name" required /></label>
+            <label>Email <input type="email" name="email" required /></label>
+            <label>Phone <input type="tel" name="phone" required /></label>
+            <label>Loan Goal
+              <select name="goal" required>
+                <option value="">Select one</option>
+                <option>Purchase</option>
+                <option>Refinance</option>
+                <option>Investment</option>
+              </select>
+            </label>
+            <label>Message <textarea name="message" rows="4" required></textarea></label>
+            <label class="consent">
+              <input type="checkbox" required />
+              I consent to receive communication by phone, SMS, and email regarding my loan inquiry.
+            </label>
+            <button class="btn btn-accent" type="submit">Request Consultation</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">Summit Harbor Mortgage</p>
+          <p>Independent mortgage brokerage focused on purchase, refinance, and investor lending.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Compliance</p>
+          <p>Company NMLS ID: Pending Activation</p>
+          <p>Equal Housing Opportunity</p>
+          <p>Licensing states will be disclosed before public launch.</p>
+        </div>
+        <div>
+          <p class="footer-heading">Legal</p>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Consumer Access</a>
+        </div>
+      </div>
+      <div class="container legal-note">
+        <p>
+          Rates, APR, and program availability may change without notice. All mortgage loans are subject to credit review, underwriting, and property approval.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+ </html>
