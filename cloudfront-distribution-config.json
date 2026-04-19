@@ -105,9 +105,12 @@
     ]
   },
   "ViewerCertificate": {
-    "CloudFrontDefaultCertificate": true,
-    "MinimumProtocolVersion": "TLSv1",
-    "CertificateSource": "cloudfront"
+    "CloudFrontDefaultCertificate": false,
+    "ACMCertificateArn": "arn:aws:acm:us-east-1:621580823968:certificate/b933bce7-c3cf-4e1a-a075-21545a105866",
+    "SSLSupportMethod": "sni-only",
+    "MinimumProtocolVersion": "TLSv1.2_2021",
+    "Certificate": "arn:aws:acm:us-east-1:621580823968:certificate/b933bce7-c3cf-4e1a-a075-21545a105866",
+    "CertificateSource": "acm"
   },
   "Restrictions": {
     "GeoRestriction": {
@@ -118,6 +121,10 @@
   "WebACLId": "",
   "HttpVersion": "http2",
   "Aliases": {
-    "Quantity": 0
+    "Quantity": 2,
+    "Items": [
+      "mortgageloansbroker.com",
+      "www.mortgageloansbroker.com"
+    ]
   }
 }
